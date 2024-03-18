@@ -1,6 +1,8 @@
 CARACal stimela recipes
 -----------------------
+
 Installation:  `pip install cult-cargo==0.1.2rc6`
+
 Run: `stimela doc <ymlfile> <recipe>` to get documentation of the recipe file. 
 
 List of recipe files:
@@ -8,7 +10,7 @@ List of recipe files:
 - `caracal-cabs.yml` - All the software running in containers to perform data processing
 - `caracal-libs` - A list of reusable steps and libraries
 - `caracal-flag.yml` - The flagging worker recipe
-- `caracal-selfcal.yml` - The self calibration worker recipe
+- `caracal-selfcal.yml` - The self-calibration worker recipe
 - `caracal-ddcal.yml` - The direction-dependent calibration worker recipe
 - `caracal-srun.yml` - Slurm runner options (e.g. slurm: enable: true)
 - `caracal-schema.yml` - The default parameters when executing the pipeline
