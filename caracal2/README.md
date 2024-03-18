@@ -1,6 +1,6 @@
 CARACal stimela recipes
 -----------------------
-
+Installation:  `pip install cult-cargo==0.1.2rc6`
 Run: `stimela doc <ymlfile> <recipe>` to get documentation of the recipe file. 
 
 List of recipe files:
@@ -21,7 +21,7 @@ Data combination
 `stimela -C run caracal.yml concat-pointings`
 
 
-Data redcution
+Data reduction
 --------------
 
 ### 1. Self-Calibration 
