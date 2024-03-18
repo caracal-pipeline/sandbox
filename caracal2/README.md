@@ -11,9 +11,9 @@ List of recipe files:
 - `caracal-selfcal.yml` - The self calibration worker recipe
 - `caracal-ddcal.yml` - The direction-dependent calibration worker recipe
 - `caracal-srun.yml` - Slurm runner options (e.g. slurm: enable: true)
-- `caracal-schema.yml` - The default parameters when executing the pipeline (also can be provided on the command line
+- `caracal-schema.yml` - The default parameters when executing the pipeline
 
-  (e.g. `selfcal-pa-rotate=true`)
+  (also can be provided on the command line e.g. `selfcal-pa-rotate=true`)
 
 Data combination
 ----------------
