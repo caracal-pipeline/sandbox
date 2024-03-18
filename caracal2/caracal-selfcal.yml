@@ -84,14 +84,6 @@ caracal-selfcal:
         threads: =recipe.ncpu
         no-update-model-required: =recipe.image-no-update-model-required
 
-    quality-assess-0:
-      info: image quality assessment
-      cab: aimfast
-      skip: =IF(not recipe.image-enable, IF(recipe.aimfast-enable, false, true), true)
-      params:
-        residual_image: =steps.image-*.residual.i.mfs
-        outfile: '{steps.image-*.prefix}-im-{info.suffix}.json'
-
     masking-0:
       info: generate a mask
       cab: breizorro
@@ -102,6 +94,14 @@ caracal-selfcal:
         threshold: 10.0
         dilate: 1
         #boxsize: 60
+
+    quality-assess-0:
+      info: image quality assessment
+      cab: aimfast
+      skip: =IF(not recipe.image-enable, IF(recipe.aimfast-enable, false, true), true)
+      params:
+        residual_image: =steps.image-*.residual.i.mfs
+        outfile: '{steps.image-*.prefix}-im-{info.suffix}.json'
 
     image-1:
       info: image and construct initial model image using the CORRECTED_DATA column using a mask
@@ -171,13 +171,6 @@ caracal-selfcal:
         #pol: IQ
         #no-update-model-required: true
 
-    quality-assess-2:
-      info: image quality assessment
-      cab: aimfast
-      params:
-        residual_image: =steps.image-*.residual.i.mfs
-        outfile: '{steps.image-*.prefix}-im-{info.suffix}.json'
-
     masking-2:
       info: generate a mask
       cab: breizorro
@@ -187,6 +180,13 @@ caracal-selfcal:
         threshold: 15.0
         dilate: 2
         boxsize: 35
+
+    quality-assess-2:
+      info: image quality assessment
+      cab: aimfast
+      params:
+        residual_image: =steps.image-*.residual.i.mfs
+        outfile: '{steps.image-*.prefix}-im-{info.suffix}.json'
 
     copycol-2:
       info: Make a copy of the MODEL_DATA column
@@ -235,6 +235,12 @@ caracal-selfcal:
         output.gain_directory: "{recipe.dir-out-base}/KG-{info.suffix}.qc/"
         output.log_directory: "{recipe.dir-out-base}/KG-{info.suffix}.qc/log/"
 
+    flagsummary-stats-3:
+      info: report flagging statistics after calibration
+      cab: casa.flagsummary
+      params:
+        ms: =recipe.ms
+
     image-3:
       info: image using the G_CORRECTED_DATA column using a mask
       _use: caracal-selfcal.steps.image-0
@@ -250,6 +256,16 @@ caracal-selfcal:
         threshold: 0.000025
         column: G_CORRECTED_DATA
         no-update-model-required: true
+
+    masking-3:
+      info: generate a mask
+      cab: breizorro
+      params:
+        restored-image: =steps.image-pol*.restored.i.mfs
+        mask: '{steps.image-*.prefix}-MFS-mask.fits'
+        threshold: 15.0
+        dilate: 2
+        boxsize: 35
 
     quality-assess-3:
       info: image quality assessment
