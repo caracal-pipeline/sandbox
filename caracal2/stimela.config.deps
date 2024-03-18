@@ -1,0 +1,17 @@
+/home/ramaila/.virtualenvs/stimela_fiasco/lib/python3.8/site-packages/stimela:
+  version: 2.0rc13
+  mtime: 1708761171.691863
+  mtime_str: Sat Feb 24 09:52:51 2024
+/home/ramaila/.virtualenvs/stimela_fiasco/lib/python3.8/site-packages/stimela/config.py:
+  origin: /home/ramaila/.virtualenvs/stimela_fiasco/lib/python3.8/site-packages/stimela
+/home/ramaila/.virtualenvs/stimela_fiasco/lib/python3.8/site-packages/scabha/configuratt/__init__.py:
+  origin: /home/ramaila/.virtualenvs/stimela_fiasco/lib/python3.8/site-packages/stimela
+/home/ramaila/.virtualenvs/stimela_fiasco/lib/python3.8/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1708761171.4598627
+  mtime_str: Sat Feb 24 09:52:51 2024
+  md5hash: 413c28261f00873293bdb574eda39cf8
+/home/ramaila/.virtualenvs/stimela_fiasco/lib/python3.8/site-packages/stimela/stimela.conf:
+  mtime: 1708761171.4678628
+  mtime_str: Sat Feb 24 09:52:51 2024
+  md5hash: a358b6c56b6f9adff284be7a6b8eab2d
