@@ -11,7 +11,7 @@ List of recipe files:
 - `caracal-selfcal.yml` - The self calibration worker recipe
 - `caracal-ddcal.yml` - The direction-dependent calibration worker recipe
 - `caracal-srun.yml` - Slurm runner options (e.g. slurm: enable: true)
-- `caracal-schema.yml` - The default parameters when executing the pipeline (also can be provided on the command line e.g. selfcal-pa-rotate=true)
+- `caracal-schema.yml` - The default parameters when executing the pipeline (also can be provided on the command line e.g. `selfcal-pa-rotate=true`)
 
 Data combination
 ----------------
@@ -22,7 +22,7 @@ Data combination
 Data redcution
 --------------
 
-## 1. Self-Calibration 
+### 1. Self-Calibration 
 
 #### i. Initial flagging, auto-masked imaging, masking and imaging with mask to get an initial model
 `./caracal.yml caracal-selfcal --step flagsummary-stats-0,flag-rfi-0,save-flags-1,flagsummary-stats-1,image-pol-0,quality-assess-0,masking-0,image-pol-0,quality-assess-0 selfcal-pa-rotate=false`
