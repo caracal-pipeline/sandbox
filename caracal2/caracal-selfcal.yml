@@ -55,10 +55,10 @@ caracal-selfcal:
         prefix: ="{recipe.dir-out-base}/imaging-{info.suffix}/{recipe.image-prefix}"
         size: =recipe.image-size
         scale: =recipe.image-scale
-        threshold: =IF(recipe.image-auto-threshold, UNSET, recipe.image-threshold)
-        auto-threshold: =IFSET(recipe.image-auto-threshold)
-        fits-mask: =IF(recipe.image-fits-mask, recipe.image-fits-mask, UNSET)
-        auto-mask: =recipe.image-auto-mask
+        threshold: =IF(recipe.image-threshold, recipe.image-threshold, UNSET)
+        auto-threshold: =IF(recipe.image-threshold, UNSET, recipe.image-auto-threshold)
+        fits-mask: =IFSET(recipe.image-fits-mask)
+        auto-mask: =IF(recipe.image-fits-mask, UNSET, recipe.image-auto-mask)
         threads: =recipe.ncpu
         no-update-model-required: =recipe.image-no-update-model-required
 
@@ -77,10 +77,10 @@ caracal-selfcal:
         prefix: ="{recipe.dir-out-base}/imaging-{info.suffix}/{recipe.image-prefix}"
         size: =recipe.image-size
         scale: =recipe.image-scale
-        threshold: =IFSET(recipe.image-threshold)
+        threshold: =IF(recipe.image-threshold, recipe.image-threshold, UNSET)
         auto-threshold: =IF(recipe.image-threshold, UNSET, recipe.image-auto-threshold)
-        fits-mask: =IF(recipe.image-fits-mask, recipe.image-fits-mask, UNSET)
-        auto-mask: =recipe.image-auto-mask
+        fits-mask: =IFSET(recipe.image-fits-mask)
+        auto-mask: =IF(recipe.image-fits-mask, UNSET, recipe.image-auto-mask)
         threads: =recipe.ncpu
         no-update-model-required: =recipe.image-no-update-model-required
 
@@ -255,7 +255,7 @@ caracal-selfcal:
       params:
         threshold: 0.000025
         column: G_CORRECTED_DATA
-        no-update-model-required: true
+        no-update-model-required: =recipe.image-no-update-model-required
 
     masking-3:
       info: generate a mask
