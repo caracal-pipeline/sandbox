@@ -195,7 +195,7 @@ caracal-ddcal:
         pol: IQUV
         threads: =recipe.ncpu
 
-    pol-predict-copycol-1:
+    copycol-predict-1:
       info: Make a copy of the MODEL_DATA column
       skip: =not recipe.copy-model-columns
       cab: msutils.copycol
