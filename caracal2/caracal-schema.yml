@@ -52,7 +52,7 @@ image-niter:
   default: 100000
   dtype: int
 image-threshold:
-  default: 3.0e-5
+  #default: 3.0e-5
   dtype: float
 image-auto-threshold:
   default: 3.0
@@ -61,16 +61,16 @@ image-auto-mask:
   default: 5.0
   dtype: float
 image-nchan:
-  default: 8
+  default: 4
   dtype: int
 image-size:
-  default: 6144
+  default: 4096
   dtype: int
 image-scale:
   default: 1.0asec
   dtype: str
 image-fits-mask:
-  default: 'mask/PictorA-6144-mask.fits'
+  #default: 'mask/PictorA-6144-mask.fits'
   dtype: File
 image-breizorro-enable:
   default: false
@@ -123,7 +123,7 @@ ddcal-enable:
   default: false
   dtype: bool
 ddcal-mask-region:
-  default: 'mask/PictorA_1-MFS-hotspot-mask.image.out.fits'
+  #default: 'mask/PictorA_1-MFS-hotspot-mask.image.out.fits'
   dtype: File
 ddcal-jones:
   default: ['k-g-de']
