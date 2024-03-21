@@ -38,3 +38,11 @@ Data reduction
 `./caracal.yml caracal-selfcal --step selfcal-2,flagsummary-stats-3,image-pol-3,masking-3,quality-assess-3,upsample-3,predict-3,`
 
 NB: The step option can run specific steps of the pipeline separately. e.g. `stimela -C run caracal-flag.yml --step flagsummary-stats ms=caracal-test.ms` to run flag summary only on MS.
+
+### 2. Direction-dependent calibration
+
+#### i. Make a copy of model data, make product of corrected model with de-mask to get de only model, predict the model, copy the model in to a separate column
+`./caracal.yml caracal-ddcal --step copycol-1,dd-source-1,dd-predict-1,copycol-predict-1`
+
+#### ii. Perform a chain of KG and peel dE, make image of the remaining sources
+`./caracal.yml caracal-ddcal --step  ddcal-1,image-2`
