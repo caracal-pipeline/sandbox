@@ -55,10 +55,10 @@ caracal-selfcal:
         prefix: ="{recipe.dir-out-base}/imaging-{info.suffix}/{recipe.image-prefix}"
         size: =recipe.image-size
         scale: =recipe.image-scale
-        threshold: =IF(recipe.image-threshold, recipe.image-threshold, UNSET)
-        auto-threshold: =IF(recipe.image-threshold, UNSET, recipe.image-auto-threshold)
+        threshold: =IFSET(recipe.image-threshold)
+        auto-threshold: =IFSET(recipe.image-auto-threshold)
         fits-mask: =IFSET(recipe.image-fits-mask)
-        auto-mask: =IF(recipe.image-fits-mask, UNSET, recipe.image-auto-mask)
+        auto-mask: =IFSET(recipe.image-auto-mask)
         threads: =recipe.ncpu
         no-update-model-required: =recipe.image-no-update-model-required
 
@@ -77,10 +77,10 @@ caracal-selfcal:
         prefix: ="{recipe.dir-out-base}/imaging-{info.suffix}/{recipe.image-prefix}"
         size: =recipe.image-size
         scale: =recipe.image-scale
-        threshold: =IF(recipe.image-threshold, recipe.image-threshold, UNSET)
-        auto-threshold: =IF(recipe.image-threshold, UNSET, recipe.image-auto-threshold)
+        threshold: =IFSET(recipe.image-threshold)
+        auto-threshold: =IFSET(recipe.image-auto-threshold)
         fits-mask: =IFSET(recipe.image-fits-mask)
-        auto-mask: =IF(recipe.image-fits-mask, UNSET, recipe.image-auto-mask)
+        auto-mask: =IFSET(recipe.image-auto-mask)
         threads: =recipe.ncpu
         no-update-model-required: =recipe.image-no-update-model-required
 
