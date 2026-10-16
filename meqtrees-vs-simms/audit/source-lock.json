@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "campaign": "issue-3-initial-audit",
+  "sources": {
+    "simms": {
+      "repository": "https://github.com/shinobi-dosho/simms",
+      "branch": "main",
+      "commit": "5a45f0ccb2a18f569e7f127a769cf136f8e8a261",
+      "role": "simms runtime"
+    },
+    "cattery": {
+      "repository": "https://github.com/ratt-ru/meqtrees-cattery",
+      "branch": "master",
+      "commit": "710d20b9b2f16b0a1499fca4ed4c3607ed5059fe",
+      "role": "source audit"
+    },
+    "timba": {
+      "repository": "https://github.com/ratt-ru/meqtrees-timba",
+      "branch": "master",
+      "commit": "853ab56814da3d7a4e903b55b54dcc4e3d6ded28",
+      "role": "candidate kernel source; runtime not installed"
+    },
+    "mkpsim": {
+      "repository": "https://github.com/ska-sa/mkp-sci-com",
+      "branch": "main",
+      "commit": "743a92724cb0dfd3b98de6e80786aa2a94bcf7d2",
+      "role": "source audit"
+    },
+    "cult-cargo": {
+      "repository": "https://github.com/caracal-pipeline/cult-cargo",
+      "branch": "master",
+      "commit": "4258478fa5f592200b50b5822ff6034960aa46ff",
+      "role": "source audit"
+    }
+  },
+  "meqtrees_runtime": {
+    "status": "not_available",
+    "selection": "pinned Cattery and Timba source candidates; verify against mkpsim reference image before choosing final runtime",
+    "reference_image_tag": "quay.io/stimela2/meqtrees:cc0.2.1",
+    "reference_image_digest": null,
+    "note": "Tag inferred from pinned cult-cargo, not proof of an existing mkpsim installation. No native kernel/container runtime is installed here."
+  }
+}

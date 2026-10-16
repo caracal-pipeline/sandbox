@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "captured_at_utc": "2026-10-16T07:08:44.555390+00:00",
+  "engine": "simms",
+  "python": {
+    "executable": "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/bin/python",
+    "version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+  },
+  "host": {
+    "system": "Linux",
+    "release": "6.18.44",
+    "machine": "x86_64",
+    "cpu_count": 9,
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "NUMBA_NUM_THREADS": null
+  },
+  "packages": [
+    {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    {
+      "name": "appdirs",
+      "version": "1.4.4"
+    },
+    {
+      "name": "astro-kittens",
+      "version": "1.4.6"
+    },
+    {
+      "name": "astropy",
+      "version": "8.0.1"
+    },
+    {
+      "name": "astropy-iers-data",
+      "version": "0.2026.7.20.15.31.18"
+    },
+    {
+      "name": "cacheout",
+      "version": "0.16.0"
+    },
+    {
+      "name": "click",
+      "version": "8.5.0"
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2"
+    },
+    {
+      "name": "codex-africanus",
+      "version": "0.4.4"
+    },
+    {
+      "name": "configparser",
+      "version": "7.2.0"
+    },
+    {
+      "name": "dask",
+      "version": "2026.7.1"
+    },
+    {
+      "name": "dask-ms",
+      "version": "0.2.32"
+    },
+    {
+      "name": "decorator",
+      "version": "5.3.1"
+    },
+    {
+      "name": "donfig",
+      "version": "0.8.1.post1"
+    },
+    {
+      "name": "ducc0",
+      "version": "0.41.0"
+    },
+    {
+      "name": "ephem",
+      "version": "4.2.1"
+    },
+    {
+      "name": "fitstoolz",
+      "version": "0.1.0"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.6.0"
+    },
+    {
+      "name": "jax",
+      "version": "0.11.0"
+    },
+    {
+      "name": "jaxlib",
+      "version": "0.11.0"
+    },
+    {
+      "name": "llvmlite",
+      "version": "0.48.0"
+    },
+    {
+      "name": "locket",
+      "version": "1.0.0"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    {
+      "name": "ml_dtypes",
+      "version": "0.5.4"
+    },
+    {
+      "name": "numba",
+      "version": "0.66.0"
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.6"
+    },
+    {
+      "name": "opt_einsum",
+      "version": "3.4.0"
+    },
+    {
+      "name": "packaging",
+      "version": "26.2"
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.5"
+    },
+    {
+      "name": "partd",
+      "version": "1.4.2"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.13.4"
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.14.2"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.46.4"
+    },
+    {
+      "name": "pyerfa",
+      "version": "2.0.1.5"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.20.0"
+    },
+    {
+      "name": "python-casacore",
+      "version": "3.8.1"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.2"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0"
+    },
+    {
+      "name": "simms",
+      "version": "3.0.2"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "stimela-ninja",
+      "version": "0.1.0b7"
+    },
+    {
+      "name": "toolz",
+      "version": "1.1.0"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.0"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.2"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "xarray",
+      "version": "2026.7.0"
+    }
+  ],
+  "modules": {
+    "simms": {
+      "available": true,
+      "origin": "/workspace/scratch/a2e4ee446bfb/simms-src/src/simms/__init__.py"
+    },
+    "shinobi": {
+      "available": true,
+      "origin": "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/lib/python3.12/site-packages/shinobi/__init__.py"
+    },
+    "Timba": {
+      "available": false,
+      "origin": null
+    },
+    "Cattery": {
+      "available": false,
+      "origin": null
+    },
+    "casacore": {
+      "available": true,
+      "origin": "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/lib/python3.12/site-packages/casacore/__init__.py"
+    }
+  },
+  "executables": {
+    "simms": "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/bin/simms",
+    "shinobi": null,
+    "meqtree-pipeliner.py": null,
+    "meqserver": null,
+    "apptainer": null,
+    "singularity": null,
+    "docker": null
+  },
+  "repositories": {
+    "simms": {
+      "path": "/workspace/scratch/a2e4ee446bfb/simms-src",
+      "head": "5a45f0ccb2a18f569e7f127a769cf136f8e8a261",
+      "expected": "5a45f0ccb2a18f569e7f127a769cf136f8e8a261",
+      "clean": true,
+      "status": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/simms-src",
+          "status",
+          "--porcelain"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "head_command": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/simms-src",
+          "rev-parse",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "5a45f0ccb2a18f569e7f127a769cf136f8e8a261\n",
+        "stderr": ""
+      }
+    },
+    "cattery": {
+      "path": "/workspace/scratch/a2e4ee446bfb/cattery-src",
+      "head": "710d20b9b2f16b0a1499fca4ed4c3607ed5059fe",
+      "expected": "710d20b9b2f16b0a1499fca4ed4c3607ed5059fe",
+      "clean": true,
+      "status": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/cattery-src",
+          "status",
+          "--porcelain"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "head_command": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/cattery-src",
+          "rev-parse",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "710d20b9b2f16b0a1499fca4ed4c3607ed5059fe\n",
+        "stderr": ""
+      }
+    },
+    "timba": {
+      "path": "/workspace/scratch/a2e4ee446bfb/timba-src",
+      "head": "853ab56814da3d7a4e903b55b54dcc4e3d6ded28",
+      "expected": "853ab56814da3d7a4e903b55b54dcc4e3d6ded28",
+      "clean": true,
+      "status": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/timba-src",
+          "status",
+          "--porcelain"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "head_command": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/timba-src",
+          "rev-parse",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "853ab56814da3d7a4e903b55b54dcc4e3d6ded28\n",
+        "stderr": ""
+      }
+    },
+    "mkpsim": {
+      "path": "/workspace/scratch/a2e4ee446bfb/mkp-src",
+      "head": "743a92724cb0dfd3b98de6e80786aa2a94bcf7d2",
+      "expected": "743a92724cb0dfd3b98de6e80786aa2a94bcf7d2",
+      "clean": true,
+      "status": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/mkp-src",
+          "status",
+          "--porcelain"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "head_command": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/mkp-src",
+          "rev-parse",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "743a92724cb0dfd3b98de6e80786aa2a94bcf7d2\n",
+        "stderr": ""
+      }
+    },
+    "cult-cargo": {
+      "path": "/workspace/scratch/a2e4ee446bfb/cargo-src",
+      "head": "4258478fa5f592200b50b5822ff6034960aa46ff",
+      "expected": "4258478fa5f592200b50b5822ff6034960aa46ff",
+      "clean": true,
+      "status": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/cargo-src",
+          "status",
+          "--porcelain"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "head_command": {
+        "argv": [
+          "git",
+          "-C",
+          "/workspace/scratch/a2e4ee446bfb/cargo-src",
+          "rev-parse",
+          "HEAD"
+        ],
+        "returncode": 0,
+        "stdout": "4258478fa5f592200b50b5822ff6034960aa46ff\n",
+        "stderr": ""
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "/workspace/scratch/a2e4ee446bfb/simms-src/uv.lock",
+      "sha256": "1c85abc354b49c4e0e445c72423ec3cf3afdc4bf8f654b7fdd5237fad68814a2"
+    },
+    {
+      "path": "/workspace/scratch/a2e4ee446bfb/sandbox/meqtrees-vs-simms/audit/meqtrees-direct.tdl",
+      "sha256": "08a454c9f7ec91ff1613a1bcc4438ad33e47841b18f48cea5682bcab1aadf5a2"
+    }
+  ],
+  "errors": [],
+  "import_probe": {
+    "argv": [
+      "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/bin/python",
+      "-c",
+      "import simms, shinobi, casacore.tables"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "help_probe": {
+    "argv": [
+      "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/bin/simms",
+      "skysim",
+      "--help"
+    ],
+    "returncode": 0,
+    "stdout": "Usage: simms skysim [OPTIONS] MS\n\n  Predict model visibilities from a sky model into an MS.\n\nOptions:\n  -as, --ascii-sky TEXT           Catalogue of sources. See the documentation\n                                  for accepted units.\n  -fs, --fits-sky TEXT            FITS file (or directory of Stokes cubes)\n                                  containing the sky model.\n  -ws, --wsclean-sky TEXT         WSClean component list (point and Gaussian\n                                  components, Stokes I).\n  -fsi, --fits-sky-interp [nearest|linear|cubic]\n                                  Interpolation method when the MS and FITS\n                                  frequency grids do not match and the cube is\n                                  kept.\n  -pol, --polarisation / --no-polarisation\n                                  Simulate all available Stokes parameters. If\n                                  false, only Stokes I.\n  --pol-basis [linear|circular]   Polarization basis for the simulation.\n  -pt, --pixel-tol FLOAT          Minimum brightness for a pixel to be\n                                  considered in direct Fourier transform.\n  -fsp, --fits-spectrum [auto|flat|poly|cube]\n                                  How the FITS sky model varies with\n                                  frequency.\n  --fits-spi TEXT                 Spectral-index (and higher-order)\n                                  coefficient maps, ordered c1, c2, ...\n                                  Requires --fits-ref-freq.\n  -frf, --fits-ref-freq FLOAT     Reference frequency (Hz) of an analytic FITS\n                                  spectrum. Defaults to the MS band centre.\n  --fits-spectrum-order INTEGER   Order of the fitted log-polynomial spectrum.\n                                  1 is a plain spectral index.\n  --predict-backend [auto|dft|fft|perchan]\n                                  Backend for FITS sky model prediction.\n  --fft-precision [single|double]\n                                  Precision of the FFT calculation.\n  --do-wstacking / --no-do-wstacking\n                                  Whether to use w-stacking for FFT-based\n                                  visibility prediction.\n  -ad, --ascii-delimiter TEXT     Delimiter used in the ascii-sky.\n  -col, --column TEXT             Data column for simulation.\n  --nworkers INTEGER              Number of workers (one per CPU).\n  -rcs, --row-chunks, --rowchunks INTEGER\n                                  Maximum number of rows per chunk. Controls\n                                  the row-wise task/memory granularity; the\n                                  effective size is reduced when needed so\n                                  every worker gets several chunks.\n  -ccs, --chan-chunks INTEGER     Number of channels per chunk. Defaults to\n                                  all channels in one chunk.\n  -pb, --primary-beam TEXT        Beam model config: a simms beam-config YAML\n                                  mapping each ANTENNA telescope name to a\n                                  beam model, or a Cattery/DDFacet\n                                  heterogeneous-beam json (--Beam-FITSFile\n                                  json form, keyed by ANTENNA.NAME) if the\n                                  path ends in .json. For Cattery/DDFacet\n                                  beams a circular-correlation MS may be used\n                                  when --beam-jones full is selected.\n  --beam-band [UHF|L]             Default band for JimBeam entries that omit\n                                  an explicit model/CSV.\n  --beam-pa-step FLOAT            Spacing (degrees) of the parallactic-angle\n                                  grid the beam is sampled on.\n  --beam-grid-max-gib FLOAT       Hard ceiling (GiB) on the sampled beam grid\n                                  held in memory for the whole run; pointing\n                                  errors add 2 (first) or 3 (laplacian)\n                                  derivative grids of the same size.\n  --beam-jones [diagonal|full]    Primary-beam application: per-feed voltage\n                                  or full 2x2 E-Jones.\n  -fbm, --fits-beam-mode [aterm|average]\n                                  Primary-beam handling for the FITS-image\n                                  path: 'aterm' applies exact per-antenna\n                                  a-terms in the image domain (time- and\n                                  frequency-interpolated, heterogeneity-\n                                  aware); 'average' multiplies the sky by a\n                                  single PA-averaged power beam (legacy\n                                  approximation).\n  -aft, --aterm-freq-tol FLOAT    Largest allowed error (in voltage-beam\n                                  units, beam peak ~1) of the a-term's linear-\n                                  in-frequency interpolation between knot\n                                  channels. Smaller means more frequency\n                                  knots; 0 or negative samples the beam at\n                                  every channel.\n  -tnc, --telescope-name-column TEXT\n                                  ANTENNA-table column holding the per-antenna\n                                  telescope/type label that maps to a beam\n                                  model.\n  -bla, --beam-l-axis [-X|X]      Sign convention for a Cattery/DDFacet .json\n                                  primary-beam config's L axis; ignored for\n                                  YAML beam configs, which specify their own\n                                  axis convention. Matches DDFacet's --Beam-\n                                  FITSLAxis.\n  -bma, --beam-m-axis [Y|-Y]      Sign convention for a Cattery/DDFacet .json\n                                  primary-beam config's M axis; ignored for\n                                  YAML beam configs, which specify their own\n                                  axis convention. Matches DDFacet's --Beam-\n                                  FITSMAxis.\n  --smearing [analytic|subsample|none]\n                                  Time and bandwidth smearing of the predicted\n                                  model. 'analytic' (default) applies the sinc\n                                  decorrelation implied by the MS's own\n                                  CHAN_WIDTH and EXPOSURE, so the model\n                                  matches averaged data instead of over-\n                                  predicting sources far from the phase centre\n                                  on long baselines -- but only the per-\n                                  visibility (ASCII, WSClean and FITS\n                                  --predict-backend dft) paths can carry it,\n                                  and the FITS gridder backends warn and\n                                  predict unsmeared. 'subsample' additionally\n                                  smears the gridder backends by averaging\n                                  whole predictions over sub-times and sub-\n                                  frequencies (a ~1%% method; cost multiplies\n                                  with the sub-sample counts, chosen\n                                  automatically and capped by --smearing-\n                                  subsamples), while the per-visibility paths\n                                  keep the analytic factor. 'none' predicts a\n                                  monochromatic, instantaneous model\n                                  everywhere.\n  -sss, --smearing-subsamples INTEGER\n                                  Cap on the automatically chosen per-axis\n                                  (time and frequency) sub-sample counts under\n                                  --smearing subsample; capped runs warn with\n                                  the residual amplitude bias. No effect for\n                                  other --smearing modes.\n  -fi, --field-id INTEGER         Field ID.\n  --spw-id INTEGER                Spectral Window ID.\n  --sefd FLOAT                    Add noise using this SEFD value.\n  --seed-noise INTEGER            Random seed for the thermal noise. Omit for\n                                  a non-reproducible run. The realisation also\n                                  depends on the row chunking, which\n                                  --nworkers feeds into, so reproducing a\n                                  previous run needs the same --seed-noise,\n                                  --row-chunks and --nworkers. This is the\n                                  renamed --seed; the same value gives the\n                                  same noise.\n  --seed-gains INTEGER            Random seed for the corruption terms' random\n                                  phases/matrices and the pointing-error\n                                  draws. Omit for a deterministic per-label\n                                  draw; the thermal noise stream is unaffected\n                                  either way.\n  --seed INTEGER                  Deprecated alias for --seed-noise; --seed-\n                                  noise wins if both are given.\n  --corruptions TEXT              YAML file describing RIME corruptions:\n                                  antenna 'gains' applied to the predicted\n                                  visibilities and/or antenna 'pointing'\n                                  errors, which are applied through the\n                                  primary beam (--ascii-sky with --primary-\n                                  beam only).\n  -asp, --ascii-species [bdsf_gaul|bdsf_srl|aegean|wsclean]\n                                  Non-simms sky model type.\n  -ic, --input-column TEXT        Column that 'add'/'subtract' combine the\n                                  simulation with. Defaults to --column.\n  --mode [sim|add|subtract]       How the simulation reaches --column: 'sim'\n                                  overwrites it, 'add' adds the simulation to\n                                  --input-column, 'subtract' subtracts it from\n                                  --input-column. --input-column defaults to\n                                  --column.\n  --source-schema TEXT            Custom source schema (YAML) mapping columns\n                                  in a custom sky model to the columns simms\n                                  expects.\n  --help                          Show this message and exit.\n",
+    "stderr": ""
+  },
+  "readiness": "imports_and_help_passed_prediction_unverified"
+}

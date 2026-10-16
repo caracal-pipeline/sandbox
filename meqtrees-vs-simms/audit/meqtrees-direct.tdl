@@ -1,0 +1,54 @@
+# Explicit unsmeared beam-comparison profile. NOT yet Timba-compiled.
+# Deliberate overrides of the ambiguous/inherited mkpsim options are documented
+# in CAPABILITIES.md. Runtime inputs are supplied as argv tokens, not shell text.
+[sim]
+me.sky.tiggerskymodel = 1
+me.e_enable = 1
+me.e_module = Siamese_OMS_pybeams_fits
+me.e_advanced = 0
+me.e_all_stations = 0
+me.epe_enable = 0
+me.l_enable = 0
+me.p_enable = 1
+me.d_enable = 0
+me.g_enable = 0
+me.ip_enable = 0
+me.ncorr_enable = 0
+me.z_enable = 0
+me.use_smearing = 0
+me.fix_time_smearing = 0
+me.fix_freq_smearing = 0
+me.use_jones_inspectors = 0
+me.use_skyjones_visualizers = 0
+feed_angle.enable_pa = 0
+feed_angle.read_ms = 0
+feed_angle.feed_angle = 0
+pybeams_fits.beam_type = 2x2
+pybeams_fits.missing_is_null = 0
+pybeams_fits.normalize_gains = 1
+pybeams_fits.sky_rotation = 1
+pybeams_fits.spline_order = 3
+pybeams_fits.ampl_interpolation = 0
+pybeams_fits.l_axis = px
+pybeams_fits.m_axis = py
+pybeams_fits.l_beam_offset = 0
+pybeams_fits.m_beam_offset = 0
+pybeams_fits.verbose_level = 0
+ms_sel.ddid_index = 0
+ms_sel.field_index = 0
+ms_sel.select_channels = 0
+ms_sel.ms_channel_start = 0
+ms_sel.ms_channel_end = 0
+ms_sel.ms_channel_step = 1
+ms_sel.ms_corr_sel = 2x2
+ms_sel.ms_polarization = XX XY YX YY
+ms_sel.ms_ifr_subset_str = all
+ms_sel.output_column = CORRECTED_DATA
+ms_sel.tile_size = 8
+noise_from_sefd = 0
+noise_stddev = None
+read_ms_model = 0
+run_purr = 0
+sim_mode = sim only
+tensormeqmaker.psv_class = PSVTensor
+uvw_source = from MS
