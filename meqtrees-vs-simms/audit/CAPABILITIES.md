@@ -1,5 +1,11 @@
 # Issue #3: environment and beam capability audit
 
+Follow-up: [reference-image/runtime checks](../runtime/README.md) now identify
+the image digest, confirm matching installed source hashes, and resolve a real
+Timba Python forest with the [shared diagnostic fixture](../fixtures/README.md).
+Native kernel loading/prediction remains blocked by this host's AF_UNIX policy.
+The initial audit evidence below is retained as the historical baseline.
+
 ## Evidence and status
 
 This audit pins the source versions in `source-lock.json`. simms at

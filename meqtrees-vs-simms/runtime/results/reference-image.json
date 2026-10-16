@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "status": "registry_metadata_only_runtime_unverified",
+  "captured_at_utc": "2026-10-16T10:05:49.441044+00:00",
+  "source_url": "https://quay.io/v2/stimela2/meqtrees/manifests/cc0.2.1",
+  "image": "quay.io/stimela2/meqtrees:cc0.2.1",
+  "registry_digest": "sha256:400db2aabb22b13ff15dcd80528daadf1471a04dc8f670e16f5171adec325e86",
+  "response_body_sha256": "400db2aabb22b13ff15dcd80528daadf1471a04dc8f670e16f5171adec325e86",
+  "manifest_schema": 1,
+  "architecture": "amd64",
+  "history_newest_first": [
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2026-05-21T17:18:10.195292324Z",
+      "command": [
+        "/bin/sh",
+        "-c",
+        "#(nop) ",
+        "CMD [\"/bin/sh\" \"-c\" \"meqtree-pipeliner.py --help\"]"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2026-05-21T17:18:10.179435027Z",
+      "command": [
+        "/bin/sh -c alias python=python3"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2026-05-21T17:18:09.866770732Z",
+      "command": [
+        "/bin/sh -c flag-ms.py --help"
+      ]
+    },
+    {
+      "layer": "sha256:e1288c4e6445b2cea3e1921d8e524d3d0069a7b848feeea7c89858763bce4793",
+      "created": "2026-05-21T17:18:09.402474765Z",
+      "command": [
+        "/bin/sh -c meqtree-pipeliner.py --help"
+      ]
+    },
+    {
+      "layer": "sha256:70214b52f26e2b4a96552eb2bd716377e3e33aaabd41d201633738a0a7597f3b",
+      "created": "2026-05-21T17:18:08.857768598Z",
+      "command": [
+        "/bin/sh -c pyxis --help"
+      ]
+    },
+    {
+      "layer": "sha256:ef0e7463dd66b73591867aff6036f0f977c49cfb73e7d7136c40fb20e420823c",
+      "created": "2026-05-21T17:18:08.370520176Z",
+      "command": [
+        "/bin/sh -c python -c 'from Timba import mequtils'"
+      ]
+    },
+    {
+      "layer": "sha256:53cbbd0754cfc5e1edfc4e211e14827fa4c307afe2a45c02d69f44f7f6caad3a",
+      "created": "2026-05-21T17:18:07.876170534Z",
+      "command": [
+        "/bin/sh -c #(nop) ADD dir:b7cb5fdf8c1fe5dd454405c37c70237fb5c748b13ecad1c9b5cd2a63aed560e4 in /meqConfs "
+      ]
+    },
+    {
+      "layer": "sha256:c4d2f8ec0ae68eccfc0212dbd482ec2927faf297c085c0c8ef9d342a69a2e5cc",
+      "created": "2026-05-21T17:18:07.516167912Z",
+      "command": [
+        "/bin/sh -c pip install omegaconf stimela>=2.0 astro-pyxis"
+      ]
+    },
+    {
+      "layer": "sha256:96ace6b59ad7d0c857a21009a4c20e419f0e59955a09cf1f1360c7e5380ad7ae",
+      "created": "2026-05-21T17:17:49.364849964Z",
+      "command": [
+        "/bin/sh -c mkdir /code/build &&     cd /code/build &&     cmake -DCMAKE_INSTALL_PREFIX=/usr     -DCMAKE_BUILD_TYPE=Release     -DENABLE_PYTHON_3=ON      .. &&     make -j8 &&     make install &&     rm -r /code/build &&      ldconfig"
+      ]
+    },
+    {
+      "layer": "sha256:0806e2007bc8d22780678584896abcc022bc44d22ce89643434685a4ee566949",
+      "created": "2026-05-21T17:16:14.772050414Z",
+      "command": [
+        "/bin/sh -c git clone https://github.com/ratt-ru/meqtrees-timba /code"
+      ]
+    },
+    {
+      "layer": "sha256:e69b3b58f40197cef2b16cc62f2a082657da4113d8e148c774f56675062e62e8",
+      "created": "2026-05-21T17:15:59.323254604Z",
+      "command": [
+        "/bin/sh -c pip install purr     owlcat     kittens     'meqtrees-cattery>=1.7.6'     astro-tigger-lsm     python-casacore==3.5.2     numpy==1.21.5     --no-binary 'python-casacore'     git+https://github.com/ratt-ru/tigger-lsm"
+      ]
+    },
+    {
+      "layer": "sha256:8d5c251484fd230213116b57d02a8abd87d054a2059d3e83aa26913f80ec2a4f",
+      "created": "2026-05-21T17:15:06.822943079Z",
+      "command": [
+        "/bin/sh -c rsync -az rsync://casa-rsync.nrao.edu/casa-data /usr/share/casacore/data"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2026-05-21T17:14:12.283461617Z",
+      "command": [
+        "/bin/sh -c mkdir -p /usr/share/casacore/data/"
+      ]
+    },
+    {
+      "layer": "sha256:f2b8d731f449302c5711d22af24ce60f8a93579866aac7ccd75c2ecabfc5b60d",
+      "created": "2026-05-21T17:14:11.212888333Z",
+      "command": [
+        "/bin/sh -c docker-apt-install libblitz0-dev     python3-dev     python3-pip     python3-venv     python3-casacore     casacore-dev     casarest     makems     python-is-python3     wget     git     libblas-dev     liblapack-dev     cmake     libblitz0-dev     libqdbm-dev     libfftw3-dev     wcslib-dev     libcfitsio-dev     'libcasa-*'     liblapack-dev     libatlas-base-dev     rsync"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2026-05-21T17:13:39.128361345Z",
+      "command": [
+        "/bin/sh -c #(nop)  ENV DEBIAN_PRIORITY=critical"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2026-05-21T17:13:39.112598766Z",
+      "command": [
+        "/bin/sh -c #(nop)  ENV DEBIAN_FRONTEND=noninteractive"
+      ]
+    },
+    {
+      "layer": "sha256:50036382ff116e20ec6d60ec30ae9eca3566539c175691178a4af21915ed1acd",
+      "created": "2024-04-26T12:55:04.363714711Z",
+      "command": [
+        "/bin/sh -c add-apt-repository -y restricted"
+      ]
+    },
+    {
+      "layer": "sha256:9ccc16aca9e3ceda752991fb048853bf744f0bd15892d3b9aacb97fe70f2330c",
+      "created": "2024-04-26T12:54:59.855579031Z",
+      "command": [
+        "/bin/sh -c add-apt-repository -y multiverse"
+      ]
+    },
+    {
+      "layer": "sha256:0cbf888e29f813535797958acc61c9053ae3e2815df08d98c484e15df40472c9",
+      "created": "2024-04-26T12:54:55.448496156Z",
+      "command": [
+        "/bin/sh -c add-apt-repository -y ppa:kernsuite/kern-9"
+      ]
+    },
+    {
+      "layer": "sha256:350560c16be28bb358de800abd38e9a0e3c1ee55abdc72b1ea148dff7724d7c0",
+      "created": "2024-04-26T12:54:40.733087661Z",
+      "command": [
+        "/bin/sh -c docker-apt-install software-properties-common"
+      ]
+    },
+    {
+      "layer": "sha256:4fbdf78c3565ee858c16f9dbac0ba230da2907fa123bb315a561555ce1545b98",
+      "created": "2024-04-26T12:53:24.104837278Z",
+      "command": [
+        "/bin/sh -c docker-apt-upgrade"
+      ]
+    },
+    {
+      "layer": "sha256:584ebf3751227ba42bd91591518e01f6044a03a1768c115d911235b6305dfdc2",
+      "created": "2024-04-26T12:52:45.672161885Z",
+      "command": [
+        "/bin/sh -c #(nop) ADD file:cdff31b0bdf44912c121c26abbccf7d7deab4ee653f7541d58f1786df466d1e4 in /usr/local/bin "
+      ]
+    },
+    {
+      "layer": "sha256:5dd3fc333192dc101dfd5e73897ec2b810ac85dc93485abb4a32b5bb7f306851",
+      "created": "2024-04-26T12:52:45.195121116Z",
+      "command": [
+        "/bin/sh -c #(nop) ADD file:7a7509dcbb400c4b90f6d5bdbf61ba63fd2ec2981c3be65e35f22d7a5002a41b in /usr/local/bin "
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2024-04-26T12:52:44.526339028Z",
+      "command": [
+        "/bin/sh -c #(nop)  MAINTAINER packaging@kernsuite.info"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2024-02-27T18:52:59.070788584Z",
+      "command": [
+        "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]"
+      ]
+    },
+    {
+      "layer": "sha256:23828d760c7b04df02891af556c40ca44c2dd79d6837ea6f18fac24f4108448c",
+      "created": "2024-02-27T18:52:58.867932393Z",
+      "command": [
+        "/bin/sh -c #(nop) ADD file:21c2e8d95909bec6f4acdaf4aed55b44ee13603681f93b152e423e3e6a4a207b in / "
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2024-02-27T18:52:57.070227736Z",
+      "command": [
+        "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=22.04"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2024-02-27T18:52:57.056007352Z",
+      "command": [
+        "/bin/sh -c #(nop)  LABEL org.opencontainers.image.ref.name=ubuntu"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2024-02-27T18:52:57.033105379Z",
+      "command": [
+        "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH"
+      ]
+    },
+    {
+      "layer": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4",
+      "created": "2024-02-27T18:52:57.011931013Z",
+      "command": [
+        "/bin/sh -c #(nop)  ARG RELEASE"
+      ]
+    }
+  ],
+  "warning": "Tag resolution is current evidence, not proof of an earlier mkpsim installation. Build commands do not identify installed package versions or source commits."
+}

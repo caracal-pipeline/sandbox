@@ -1,0 +1,190 @@
+{
+   "tag": "cc0.2.1",
+   "name": "stimela2/meqtrees",
+   "architecture": "amd64",
+   "schemaVersion": 1,
+   "history": [
+      {
+         "v1Compatibility": "{\"architecture\": \"amd64\", \"config\": {\"Hostname\": \"\", \"Domainname\": \"\", \"User\": \"\", \"AttachStdin\": false, \"AttachStdout\": false, \"AttachStderr\": false, \"Tty\": false, \"OpenStdin\": false, \"StdinOnce\": false, \"Env\": [\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\", \"DEBIAN_FRONTEND=noninteractive\", \"DEBIAN_PRIORITY=critical\"], \"Cmd\": [\"/bin/sh\", \"-c\", \"meqtree-pipeliner.py --help\"], \"Image\": \"sha256:6ae635dc7b2d6c16fac3ab1d14e3be4724a2d056b9dbfee375c17b323c90d6bb\", \"Volumes\": null, \"WorkingDir\": \"\", \"Entrypoint\": null, \"Labels\": {\"org.opencontainers.image.ref.name\": \"ubuntu\", \"org.opencontainers.image.version\": \"22.04\"}}, \"container\": \"96e51931dff50eae96bff0cacfac9f7510416eebb308f5e7b42abc52afbc4723\", \"container_config\": {\"Hostname\": \"96e51931dff5\", \"Domainname\": \"\", \"User\": \"\", \"AttachStdin\": false, \"AttachStdout\": false, \"AttachStderr\": false, \"Tty\": false, \"OpenStdin\": false, \"StdinOnce\": false, \"Env\": [\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\", \"DEBIAN_FRONTEND=noninteractive\", \"DEBIAN_PRIORITY=critical\"], \"Cmd\": [\"/bin/sh\", \"-c\", \"#(nop) \", \"CMD [\\\"/bin/sh\\\" \\\"-c\\\" \\\"meqtree-pipeliner.py --help\\\"]\"], \"Image\": \"sha256:6ae635dc7b2d6c16fac3ab1d14e3be4724a2d056b9dbfee375c17b323c90d6bb\", \"Volumes\": null, \"WorkingDir\": \"\", \"Entrypoint\": null, \"Labels\": {\"org.opencontainers.image.ref.name\": \"ubuntu\", \"org.opencontainers.image.version\": \"22.04\"}}, \"created\": \"2026-05-21T17:18:10.195292324Z\", \"os\": \"linux\", \"id\": \"a0d440b179bee8236cd83fb24875a3b0898601f18f12e3bf10a13092959ecce4\", \"parent\": \"6c6b4af1505fd05bbd77b7d8e7c48bf2a7522eb0225e5c6ed1073c11f39b7bdf\", \"throwaway\": true, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"6c6b4af1505fd05bbd77b7d8e7c48bf2a7522eb0225e5c6ed1073c11f39b7bdf\", \"parent\": \"b1e95340b2978b1631a8a033926a6393bbd4c3d0489561de54b135fce9776ee5\", \"created\": \"2026-05-21T17:18:10.179435027Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c alias python=python3\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"b1e95340b2978b1631a8a033926a6393bbd4c3d0489561de54b135fce9776ee5\", \"parent\": \"ba96f932fd8786fa0146872a1215b4733ad094c67b400356809eacac33febde4\", \"created\": \"2026-05-21T17:18:09.866770732Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c flag-ms.py --help\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"ba96f932fd8786fa0146872a1215b4733ad094c67b400356809eacac33febde4\", \"parent\": \"f6b4e99f3909fccdec457f26269c7bd1e233364844f84cf95d29952c6201c128\", \"created\": \"2026-05-21T17:18:09.402474765Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c meqtree-pipeliner.py --help\"]}, \"Size\": 2983}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"f6b4e99f3909fccdec457f26269c7bd1e233364844f84cf95d29952c6201c128\", \"parent\": \"8c7e65b18235b0e40cf6a9105f5eab0feb05a5cbc43b33c4d26b7a263e9f0d05\", \"created\": \"2026-05-21T17:18:08.857768598Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c pyxis --help\"]}, \"Size\": 141}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"8c7e65b18235b0e40cf6a9105f5eab0feb05a5cbc43b33c4d26b7a263e9f0d05\", \"parent\": \"6f6158530c0b7d47b1ec58c5316b70b62d6239efdac028774d45ae9b840d68fe\", \"created\": \"2026-05-21T17:18:08.370520176Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c python -c 'from Timba import mequtils'\"]}, \"Size\": 1531}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"6f6158530c0b7d47b1ec58c5316b70b62d6239efdac028774d45ae9b840d68fe\", \"parent\": \"05e29621470415bb2a68e6ebeccae14bb663da9c613b961e15e17bf7c46687a8\", \"created\": \"2026-05-21T17:18:07.876170534Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop) ADD dir:b7cb5fdf8c1fe5dd454405c37c70237fb5c748b13ecad1c9b5cd2a63aed560e4 in /meqConfs \"]}, \"Size\": 1229}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"05e29621470415bb2a68e6ebeccae14bb663da9c613b961e15e17bf7c46687a8\", \"parent\": \"b56d6f3472ad834b554c95e8461c6d6da4c04ac977bf4f81104f67bcd58becb2\", \"created\": \"2026-05-21T17:18:07.516167912Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c pip install omegaconf stimela>=2.0 astro-pyxis\"]}, \"Size\": 113810279}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"b56d6f3472ad834b554c95e8461c6d6da4c04ac977bf4f81104f67bcd58becb2\", \"parent\": \"de4926f053a24c76a57611087d46b12deac16efa71ae63558b6685f8a5579f9b\", \"created\": \"2026-05-21T17:17:49.364849964Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c mkdir /code/build &&     cd /code/build &&     cmake -DCMAKE_INSTALL_PREFIX=/usr     -DCMAKE_BUILD_TYPE=Release     -DENABLE_PYTHON_3=ON      .. &&     make -j8 &&     make install &&     rm -r /code/build &&      ldconfig\"]}, \"Size\": 5313188}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"de4926f053a24c76a57611087d46b12deac16efa71ae63558b6685f8a5579f9b\", \"parent\": \"8151af231ec22a7c05025a38a53ec082089ff00901ab0954c6f25431dc371ed5\", \"created\": \"2026-05-21T17:16:14.772050414Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c git clone https://github.com/ratt-ru/meqtrees-timba /code\"]}, \"Size\": 185922299}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"8151af231ec22a7c05025a38a53ec082089ff00901ab0954c6f25431dc371ed5\", \"parent\": \"2589a995cb8314e7488816468b7e83a7d7a91f01a908945abd6765936eed0c7a\", \"created\": \"2026-05-21T17:15:59.323254604Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c pip install purr     owlcat     kittens     'meqtrees-cattery>=1.7.6'     astro-tigger-lsm     python-casacore==3.5.2     numpy==1.21.5     --no-binary 'python-casacore'     git+https://github.com/ratt-ru/tigger-lsm\"]}, \"Size\": 884026472}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"2589a995cb8314e7488816468b7e83a7d7a91f01a908945abd6765936eed0c7a\", \"parent\": \"2d5d5d0f2425b0d0ac755615f46b0f92bdac8e6bf296ffab403b7dfb9ae556b6\", \"created\": \"2026-05-21T17:15:06.822943079Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c rsync -az rsync://casa-rsync.nrao.edu/casa-data /usr/share/casacore/data\"]}, \"Size\": 355206898}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"2d5d5d0f2425b0d0ac755615f46b0f92bdac8e6bf296ffab403b7dfb9ae556b6\", \"parent\": \"b89fa0558738b1aa3b6a8cfac605c9aeb890e0eb1ae6201f50f2ccb72e0a746e\", \"created\": \"2026-05-21T17:14:12.283461617Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c mkdir -p /usr/share/casacore/data/\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"b89fa0558738b1aa3b6a8cfac605c9aeb890e0eb1ae6201f50f2ccb72e0a746e\", \"parent\": \"611252666a09bdf890483d9c537b3c5b676029ff18d3b4db4ff519cdb495453f\", \"created\": \"2026-05-21T17:14:11.212888333Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c docker-apt-install libblitz0-dev     python3-dev     python3-pip     python3-venv     python3-casacore     casacore-dev     casarest     makems     python-is-python3     wget     git     libblas-dev     liblapack-dev     cmake     libblitz0-dev     libqdbm-dev     libfftw3-dev     wcslib-dev     libcfitsio-dev     'libcasa-*'     liblapack-dev     libatlas-base-dev     rsync\"]}, \"Size\": 252743589}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"611252666a09bdf890483d9c537b3c5b676029ff18d3b4db4ff519cdb495453f\", \"parent\": \"a28b3d404a4fadda9aeffb23f11ccf52af6038482bb2419e17f507695887274c\", \"created\": \"2026-05-21T17:13:39.128361345Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop)  ENV DEBIAN_PRIORITY=critical\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"a28b3d404a4fadda9aeffb23f11ccf52af6038482bb2419e17f507695887274c\", \"parent\": \"ac6ecb517d747be607edd3d7e492803c90e0f4ee8b4d96a2e1f74bec81c0221a\", \"created\": \"2026-05-21T17:13:39.112598766Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop)  ENV DEBIAN_FRONTEND=noninteractive\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"ac6ecb517d747be607edd3d7e492803c90e0f4ee8b4d96a2e1f74bec81c0221a\", \"parent\": \"b6b485105f561256397f049e651b8fa43cf41d61615bdf3842bc6027afc76fe8\", \"created\": \"2024-04-26T12:55:04.363714711Z\", \"author\": \"packaging@kernsuite.info\", \"container_config\": {\"Cmd\": [\"/bin/sh -c add-apt-repository -y restricted\"]}, \"Size\": 177820}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"b6b485105f561256397f049e651b8fa43cf41d61615bdf3842bc6027afc76fe8\", \"parent\": \"9489b076480e63472a704536f72812134e9143f2abb720dbad2962559b534ccd\", \"created\": \"2024-04-26T12:54:59.855579031Z\", \"author\": \"packaging@kernsuite.info\", \"container_config\": {\"Cmd\": [\"/bin/sh -c add-apt-repository -y multiverse\"]}, \"Size\": 177822}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"9489b076480e63472a704536f72812134e9143f2abb720dbad2962559b534ccd\", \"parent\": \"5e395781f8000fe05b1b156f3291715711a7fe71bc4e838f359ad04ef25b7253\", \"created\": \"2024-04-26T12:54:55.448496156Z\", \"author\": \"packaging@kernsuite.info\", \"container_config\": {\"Cmd\": [\"/bin/sh -c add-apt-repository -y ppa:kernsuite/kern-9\"]}, \"Size\": 35723922}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"5e395781f8000fe05b1b156f3291715711a7fe71bc4e838f359ad04ef25b7253\", \"parent\": \"4261278fbb4a2c6f26c7a5953aa1dff4a492325363b7beca60d1ba3c65be2574\", \"created\": \"2024-04-26T12:54:40.733087661Z\", \"author\": \"packaging@kernsuite.info\", \"container_config\": {\"Cmd\": [\"/bin/sh -c docker-apt-install software-properties-common\"]}, \"Size\": 46470503}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"4261278fbb4a2c6f26c7a5953aa1dff4a492325363b7beca60d1ba3c65be2574\", \"parent\": \"f192c74f3b101769d49c926e4a4d427fe951c6ba7350a44a5f88e30cd4788e07\", \"created\": \"2024-04-26T12:53:24.104837278Z\", \"author\": \"packaging@kernsuite.info\", \"container_config\": {\"Cmd\": [\"/bin/sh -c docker-apt-upgrade\"]}, \"Size\": 14139864}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"f192c74f3b101769d49c926e4a4d427fe951c6ba7350a44a5f88e30cd4788e07\", \"parent\": \"db8b40dfc6bde9990fc94a06c0b1a6026bbe811638f5236fcae4b2f17a6990e2\", \"created\": \"2024-04-26T12:52:45.672161885Z\", \"author\": \"packaging@kernsuite.info\", \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop) ADD file:cdff31b0bdf44912c121c26abbccf7d7deab4ee653f7541d58f1786df466d1e4 in /usr/local/bin \"]}, \"Size\": 298}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"db8b40dfc6bde9990fc94a06c0b1a6026bbe811638f5236fcae4b2f17a6990e2\", \"parent\": \"d5ff50efbfb62886ad8a6c8a0e920282d0f906910525c51355b352e8eea8c6e8\", \"created\": \"2024-04-26T12:52:45.195121116Z\", \"author\": \"packaging@kernsuite.info\", \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop) ADD file:7a7509dcbb400c4b90f6d5bdbf61ba63fd2ec2981c3be65e35f22d7a5002a41b in /usr/local/bin \"]}, \"Size\": 303}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"d5ff50efbfb62886ad8a6c8a0e920282d0f906910525c51355b352e8eea8c6e8\", \"parent\": \"5837ac4defb910c3c1e4da948b6b882bb24499980063884507bd587a0321c84d\", \"created\": \"2024-04-26T12:52:44.526339028Z\", \"author\": \"packaging@kernsuite.info\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop)  MAINTAINER packaging@kernsuite.info\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"5837ac4defb910c3c1e4da948b6b882bb24499980063884507bd587a0321c84d\", \"parent\": \"ae24c19e846470809b574046577537e974cad8b3fa3f5c9e218c547f6729ecb4\", \"created\": \"2024-02-27T18:52:59.070788584Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop)  CMD [\\\"/bin/bash\\\"]\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"ae24c19e846470809b574046577537e974cad8b3fa3f5c9e218c547f6729ecb4\", \"parent\": \"62749812606d3615fe20899f17cdf9affeecf865eac0d0d07c2fbb3001b917b7\", \"created\": \"2024-02-27T18:52:58.867932393Z\", \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop) ADD file:21c2e8d95909bec6f4acdaf4aed55b44ee13603681f93b152e423e3e6a4a207b in / \"]}, \"Size\": 30451302}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"62749812606d3615fe20899f17cdf9affeecf865eac0d0d07c2fbb3001b917b7\", \"parent\": \"332096f5fedc282e263b7cd66271e5f839d489bbeb4acd563bbf038c73439b10\", \"created\": \"2024-02-27T18:52:57.070227736Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=22.04\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"332096f5fedc282e263b7cd66271e5f839d489bbeb4acd563bbf038c73439b10\", \"parent\": \"4e7629901c1206de23f0217bb8207d92fdcfb343bedfb14a9a46189eac57914e\", \"created\": \"2024-02-27T18:52:57.056007352Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop)  LABEL org.opencontainers.image.ref.name=ubuntu\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"4e7629901c1206de23f0217bb8207d92fdcfb343bedfb14a9a46189eac57914e\", \"parent\": \"b0f744550079634015ade295d21dfe018e003cbbed03420cf5a10d1a7e0919b0\", \"created\": \"2024-02-27T18:52:57.033105379Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH\"]}, \"Size\": 32}"
+      },
+      {
+         "v1Compatibility": "{\"id\": \"b0f744550079634015ade295d21dfe018e003cbbed03420cf5a10d1a7e0919b0\", \"created\": \"2024-02-27T18:52:57.011931013Z\", \"throwaway\": true, \"container_config\": {\"Cmd\": [\"/bin/sh -c #(nop)  ARG RELEASE\"]}, \"Size\": 32}"
+      }
+   ],
+   "fsLayers": [
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:e1288c4e6445b2cea3e1921d8e524d3d0069a7b848feeea7c89858763bce4793"
+      },
+      {
+         "blobSum": "sha256:70214b52f26e2b4a96552eb2bd716377e3e33aaabd41d201633738a0a7597f3b"
+      },
+      {
+         "blobSum": "sha256:ef0e7463dd66b73591867aff6036f0f977c49cfb73e7d7136c40fb20e420823c"
+      },
+      {
+         "blobSum": "sha256:53cbbd0754cfc5e1edfc4e211e14827fa4c307afe2a45c02d69f44f7f6caad3a"
+      },
+      {
+         "blobSum": "sha256:c4d2f8ec0ae68eccfc0212dbd482ec2927faf297c085c0c8ef9d342a69a2e5cc"
+      },
+      {
+         "blobSum": "sha256:96ace6b59ad7d0c857a21009a4c20e419f0e59955a09cf1f1360c7e5380ad7ae"
+      },
+      {
+         "blobSum": "sha256:0806e2007bc8d22780678584896abcc022bc44d22ce89643434685a4ee566949"
+      },
+      {
+         "blobSum": "sha256:e69b3b58f40197cef2b16cc62f2a082657da4113d8e148c774f56675062e62e8"
+      },
+      {
+         "blobSum": "sha256:8d5c251484fd230213116b57d02a8abd87d054a2059d3e83aa26913f80ec2a4f"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:f2b8d731f449302c5711d22af24ce60f8a93579866aac7ccd75c2ecabfc5b60d"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:50036382ff116e20ec6d60ec30ae9eca3566539c175691178a4af21915ed1acd"
+      },
+      {
+         "blobSum": "sha256:9ccc16aca9e3ceda752991fb048853bf744f0bd15892d3b9aacb97fe70f2330c"
+      },
+      {
+         "blobSum": "sha256:0cbf888e29f813535797958acc61c9053ae3e2815df08d98c484e15df40472c9"
+      },
+      {
+         "blobSum": "sha256:350560c16be28bb358de800abd38e9a0e3c1ee55abdc72b1ea148dff7724d7c0"
+      },
+      {
+         "blobSum": "sha256:4fbdf78c3565ee858c16f9dbac0ba230da2907fa123bb315a561555ce1545b98"
+      },
+      {
+         "blobSum": "sha256:584ebf3751227ba42bd91591518e01f6044a03a1768c115d911235b6305dfdc2"
+      },
+      {
+         "blobSum": "sha256:5dd3fc333192dc101dfd5e73897ec2b810ac85dc93485abb4a32b5bb7f306851"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:23828d760c7b04df02891af556c40ca44c2dd79d6837ea6f18fac24f4108448c"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      },
+      {
+         "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+      }
+   ]
+}

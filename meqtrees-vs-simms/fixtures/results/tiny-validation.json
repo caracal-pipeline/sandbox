@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "rows": 18,
+  "channels": 3,
+  "correlations": 4,
+  "sources": 3,
+  "empty_ms_sha256": "9ef6df63b1f155870be84c938c8110b418d69788afc855628659cc24e697f104",
+  "checks": [
+    "file hashes",
+    "MS contents",
+    "cross-baseline coverage/closure",
+    "unflagged zero inputs",
+    "correlation order",
+    "beam mappings",
+    "voltage normalization",
+    "catalogue parsing"
+  ]
+}

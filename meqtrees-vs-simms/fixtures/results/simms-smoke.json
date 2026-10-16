@@ -1,0 +1,136 @@
+{
+  "scope": "integration smoke only, not benchmark or MeqTrees equivalence",
+  "fixture_ms_sha256": "9ef6df63b1f155870be84c938c8110b418d69788afc855628659cc24e697f104",
+  "modes": {
+    "off": {
+      "argv": [
+        "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/bin/simms",
+        "skysim",
+        "--ascii-sky",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/sky.txt",
+        "--source-schema",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/simms-schema.yaml",
+        "--smearing",
+        "none",
+        "--beam-jones",
+        "full",
+        "--column",
+        "CORRECTED_DATA",
+        "--nworkers",
+        "1",
+        "--beam-pa-step",
+        "0.05",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/final-simms-off.ms"
+      ],
+      "returncode": 0,
+      "shape": [
+        18,
+        3,
+        4
+      ],
+      "finite": true,
+      "abs_max": 1.9324039220809937,
+      "crosshand_abs_max": 0.0
+    },
+    "unity": {
+      "argv": [
+        "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/bin/simms",
+        "skysim",
+        "--ascii-sky",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/sky.txt",
+        "--source-schema",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/simms-schema.yaml",
+        "--smearing",
+        "none",
+        "--beam-jones",
+        "full",
+        "--column",
+        "CORRECTED_DATA",
+        "--nworkers",
+        "1",
+        "--beam-pa-step",
+        "0.05",
+        "--primary-beam",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/simms-unity.yaml",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/final-simms-unity.ms"
+      ],
+      "returncode": 0,
+      "shape": [
+        18,
+        3,
+        4
+      ],
+      "finite": true,
+      "abs_max": 1.9324039220809937,
+      "crosshand_abs_max": 0.0
+    },
+    "homo": {
+      "argv": [
+        "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/bin/simms",
+        "skysim",
+        "--ascii-sky",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/sky.txt",
+        "--source-schema",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/simms-schema.yaml",
+        "--smearing",
+        "none",
+        "--beam-jones",
+        "full",
+        "--column",
+        "CORRECTED_DATA",
+        "--nworkers",
+        "1",
+        "--beam-pa-step",
+        "0.05",
+        "--primary-beam",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/simms-homo.yaml",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/final-simms-homo.ms"
+      ],
+      "returncode": 0,
+      "shape": [
+        18,
+        3,
+        4
+      ],
+      "finite": true,
+      "abs_max": 1.7018250226974487,
+      "crosshand_abs_max": 0.009067096747457981
+    },
+    "hetero": {
+      "argv": [
+        "/workspace/scratch/a2e4ee446bfb/simms-src/.venv/bin/simms",
+        "skysim",
+        "--ascii-sky",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/sky.txt",
+        "--source-schema",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/simms-schema.yaml",
+        "--smearing",
+        "none",
+        "--beam-jones",
+        "full",
+        "--column",
+        "CORRECTED_DATA",
+        "--nworkers",
+        "1",
+        "--beam-pa-step",
+        "0.05",
+        "--primary-beam",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/simms-hetero.yaml",
+        "/workspace/scratch/a2e4ee446bfb/fixture-runs/final-simms-hetero.ms"
+      ],
+      "returncode": 0,
+      "shape": [
+        18,
+        3,
+        4
+      ],
+      "finite": true,
+      "abs_max": 1.6414480209350586,
+      "crosshand_abs_max": 0.008346553891897202
+    }
+  },
+  "status": "passed",
+  "unity_off_max_abs_difference": 0.0,
+  "hetero_homo_max_abs_difference": 0.11598550528287888,
+  "common_ms_unchanged": true
+}

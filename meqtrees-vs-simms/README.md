@@ -62,7 +62,16 @@ Deliver a runnable Shinobi recipe, engine adapters, fixtures/manifests, machine-
 ## Status
 
 Issue #3 now has a [pinned capability audit and reproducible environment/reader probes](audit/README.md).
-simms native imports and CLI help passed, and five standalone reader checks passed.
-The MeqTrees native-runtime/graph-compilation gate remains open; see
-[the audit findings](audit/CAPABILITIES.md). No visibility-equivalence or performance
-claim has been established. Shared fixtures and the Shinobi workflow remain pending.
+The [runtime follow-up](runtime/README.md) identifies the reference image digest,
+confirms installed source hashes and resolves a 102-node Python forest. This
+host denies the Unix-domain sockets needed for Timba's kernel communication;
+native graph loading and MeqTrees prediction remain unverified.
+
+[Shared diagnostic fixtures](fixtures/README.md) now include a common tiny MS,
+canonical sky, synthetic full-Jones beams, explicit normalization and integrity
+validation. Thirteen independent tests and four simms integration modes pass;
+unity agrees exactly with beam-off on this fixture. Scientific holography/eidos
+fixtures and the Shinobi workflow remain pending. No inter-engine visibility
+equivalence or performance claim has been established.
+
+See [the review notes](LOCAL_REVIEW.md) for scope, validation and remaining work.

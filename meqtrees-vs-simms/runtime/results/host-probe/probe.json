@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "status": "blocked",
+  "compiled": false,
+  "predicted": false,
+  "captured_at_utc": "2026-10-16T10:05:49.631485+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "threads": 1,
+  "profile_sha256": "08a454c9f7ec91ff1613a1bcc4438ad33e47841b18f48cea5682bcab1aadf5a2",
+  "errors": [
+    "Traceback (most recent call last):\n  File \"/workspace/scratch/a2e4ee446bfb/sandbox-next/meqtrees-vs-simms/runtime/probe_native.py\", line 37, in main\n    import Timba.mequtils\nModuleNotFoundError: No module named 'Timba'\n"
+  ]
+}

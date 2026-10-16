@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "captured_at_utc": "2026-10-16T10:14:04.499242+00:00",
+  "runtime_status": "native_imports_and_python_forest_only_kernel_ipc_blocked",
+  "af_unix_socket_probe": {
+    "status": "blocked",
+    "exception": "PermissionError",
+    "errno": 1,
+    "message": "[Errno 1] Operation not permitted"
+  },
+  "image_timba_commit": "853ab56814da3d7a4e903b55b54dcc4e3d6ded28",
+  "native_import_probe": {
+    "args": [
+      "/tmp/meq-image/bin/python",
+      "-c",
+      "import Timba.mequtils, Cattery, casacore.tables; print(Timba.mequtils.__file__); print(Cattery.__file__)"
+    ],
+    "returncode": 0,
+    "stdout": "/tmp/meq-image/root/usr/local/lib/python3.10/dist-packages/Timba/mequtils.so\n/tmp/meq-image/root/usr/local/lib/python3.10/dist-packages/Cattery/__init__.py\n",
+    "stderr": ""
+  },
+  "kernel_start_attempts": {
+    "result": "timeout waiting for connection",
+    "driver": "Timba.Apps.meqserver.default_mqs(wait_init=10)",
+    "note": "Both explicit image loader and image interpreter-patched binaries, and host glibc with private dependencies reached imports but could not connect. AF_UNIX is denied by host policy. No alternative transport attempted."
+  },
+  "verified_downloads": {
+    "timba": "96ace6b59ad7d0c857a21009a4c20e419f0e59955a09cf1f1360c7e5380ad7ae",
+    "deps": "f2b8d731f449302c5711d22af24ce60f8a93579866aac7ccd75c2ecabfc5b60d",
+    "source": "0806e2007bc8d22780678584896abcc022bc44d22ce89643434685a4ee566949",
+    "e69b3b58f40197cef2b16cc62f2a082657da4113d8e148c774f56675062e62e8": "e69b3b58f40197cef2b16cc62f2a082657da4113d8e148c774f56675062e62e8"
+  },
+  "beam_module_sha256": "9cdc05b4744587cafe84785b74b7baed4c651115b48bcb263a6d8d1dcfca1168",
+  "source_file_hashes": {
+    "Cattery/Siamese/OMS/pybeams_fits.py": {
+      "sha256": "9cdc05b4744587cafe84785b74b7baed4c651115b48bcb263a6d8d1dcfca1168",
+      "audit_source_sha256": "9cdc05b4744587cafe84785b74b7baed4c651115b48bcb263a6d8d1dcfca1168",
+      "matches_audit_source": true
+    },
+    "Cattery/Siamese/OMS/InterpolatedBeams.py": {
+      "sha256": "cc669006c73fec613c82bc13d8fb294b419a81c5faa11b12f335023ce89245a1",
+      "audit_source_sha256": "cc669006c73fec613c82bc13d8fb294b419a81c5faa11b12f335023ce89245a1",
+      "matches_audit_source": true
+    },
+    "Cattery/Meow/MSUtils.py": {
+      "sha256": "abd3391a98ac433cecc6c275acac2a740f8b19dc0583a658ddf357e393ad94a7",
+      "audit_source_sha256": "abd3391a98ac433cecc6c275acac2a740f8b19dc0583a658ddf357e393ad94a7",
+      "matches_audit_source": true
+    },
+    "Cattery/Meow/TensorMeqMaker.py": {
+      "sha256": "b1be21805377ea25a136105214c3716b32bd9b66317b1e2f5754cc263c8e72a3",
+      "audit_source_sha256": "b1be21805377ea25a136105214c3716b32bd9b66317b1e2f5754cc263c8e72a3",
+      "matches_audit_source": true
+    },
+    "Cattery/Siamese/turbo-sim.py": {
+      "sha256": "8050c6563170667774f8fcb40d46b6ecad3e8a93bcea0f749f84654dcb022658",
+      "audit_source_sha256": "8050c6563170667774f8fcb40d46b6ecad3e8a93bcea0f749f84654dcb022658",
+      "matches_audit_source": true
+    },
+    "Timba/TDL/TDLOptions.py": {
+      "sha256": "5f2d30199b8a9399ce0e94c120fcd7410d7bc9c7f5a68d5adad9bf42c35bddae",
+      "audit_source_sha256": "5f2d30199b8a9399ce0e94c120fcd7410d7bc9c7f5a68d5adad9bf42c35bddae",
+      "matches_audit_source": true
+    },
+    "Timba/TDL/Compile.py": {
+      "sha256": "804a953069c0ce06073ed5ea5e771666ec4ccec5c5ed8f86f61f2c9ffd654e3b",
+      "audit_source_sha256": "804a953069c0ce06073ed5ea5e771666ec4ccec5c5ed8f86f61f2c9ffd654e3b",
+      "matches_audit_source": true
+    },
+    "Timba/mequtils.so": {
+      "sha256": "04881a2a4fd06f3e8003d42d1c7ee1e5bb90b05c17867a7f96abb41b9be91396"
+    }
+  },
+  "native_meqserver_sha256": "3b08e194b149bb07798468a1407c09d08c0f42405ea51ba1a3923fd18ecad551",
+  "environment_note": "Private extraction and relocated native imports; not a complete container execution or a valid performance environment. No simulator code modified. Definition-only skips fresh-process Clear.Forest RPC only."
+}

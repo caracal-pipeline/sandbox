@@ -1,0 +1,2112 @@
+{
+  "schema_version": 1,
+  "status": "forest_resolved_native_loading_unverified",
+  "compiled": false,
+  "predicted": false,
+  "captured_at_utc": "2026-10-16T10:14:53.188225+00:00",
+  "python": "3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]",
+  "executable": "/tmp/meq-image/root/usr/bin/python3.10",
+  "threads": 1,
+  "profile_sha256": "08a454c9f7ec91ff1613a1bcc4438ad33e47841b18f48cea5682bcab1aadf5a2",
+  "errors": [],
+  "modules": {
+    "Timba.mequtils": "/tmp/meq-image/root/usr/local/lib/python3.10/dist-packages/Timba/mequtils.so",
+    "Cattery": "/tmp/meq-image/root/usr/local/lib/python3.10/dist-packages/Cattery/__init__.py"
+  },
+  "script": {
+    "path": "/tmp/meq-image/root/usr/local/lib/python3.10/dist-packages/Cattery/Siamese/turbo-sim.py",
+    "sha256": "8050c6563170667774f8fcb40d46b6ecad3e8a93bcea0f749f84654dcb022658"
+  },
+  "packages": [
+    {
+      "name": "astro-kittens",
+      "version": "1.4.6"
+    },
+    {
+      "name": "astro-tigger-lsm",
+      "version": "1.8.0"
+    },
+    {
+      "name": "astropy",
+      "version": "5.3.4"
+    },
+    {
+      "name": "blinker",
+      "version": "1.4"
+    },
+    {
+      "name": "bokeh",
+      "version": "3.9.0"
+    },
+    {
+      "name": "configparser",
+      "version": "7.2.0"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.2.1"
+    },
+    {
+      "name": "cryptography",
+      "version": "3.4.8"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "dbus-python",
+      "version": "1.2.18"
+    },
+    {
+      "name": "distro",
+      "version": "1.7.0"
+    },
+    {
+      "name": "distro-info",
+      "version": "1.1+ubuntu0.2"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.63.0"
+    },
+    {
+      "name": "future",
+      "version": "1.0.0"
+    },
+    {
+      "name": "httplib2",
+      "version": "0.20.2"
+    },
+    {
+      "name": "importlib-metadata",
+      "version": "4.6.4"
+    },
+    {
+      "name": "jeepney",
+      "version": "0.7.1"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "name": "keyring",
+      "version": "23.5.0"
+    },
+    {
+      "name": "kittens",
+      "version": "0.1.2"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0"
+    },
+    {
+      "name": "launchpadlib",
+      "version": "1.10.16"
+    },
+    {
+      "name": "lazr.restfulclient",
+      "version": "0.14.4"
+    },
+    {
+      "name": "lazr.uri",
+      "version": "1.0.6"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.8.4"
+    },
+    {
+      "name": "meqtrees-cattery",
+      "version": "1.8.0"
+    },
+    {
+      "name": "more-itertools",
+      "version": "8.10.0"
+    },
+    {
+      "name": "narwhals",
+      "version": "2.21.2"
+    },
+    {
+      "name": "numpy",
+      "version": "1.21.5"
+    },
+    {
+      "name": "oauthlib",
+      "version": "3.2.0"
+    },
+    {
+      "name": "owlcat",
+      "version": "1.8.1"
+    },
+    {
+      "name": "packaging",
+      "version": "26.2"
+    },
+    {
+      "name": "pillow",
+      "version": "12.2.0"
+    },
+    {
+      "name": "pip",
+      "version": "22.0.2"
+    },
+    {
+      "name": "purr",
+      "version": "1.5.3"
+    },
+    {
+      "name": "pyerfa",
+      "version": "2.0.1.5"
+    },
+    {
+      "name": "PyGObject",
+      "version": "3.42.1"
+    },
+    {
+      "name": "PyJWT",
+      "version": "2.3.0"
+    },
+    {
+      "name": "pyparsing",
+      "version": "2.4.7"
+    },
+    {
+      "name": "python-apt",
+      "version": "2.4.0+ubuntu3"
+    },
+    {
+      "name": "python-casacore",
+      "version": "3.5.2"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    {
+      "name": "scipy",
+      "version": "1.10.1"
+    },
+    {
+      "name": "SecretStorage",
+      "version": "3.3.1"
+    },
+    {
+      "name": "setuptools",
+      "version": "59.6.0"
+    },
+    {
+      "name": "six",
+      "version": "1.16.0"
+    },
+    {
+      "name": "tornado",
+      "version": "6.5.5"
+    },
+    {
+      "name": "unattended-upgrades",
+      "version": "0.1"
+    },
+    {
+      "name": "wadllib",
+      "version": "1.3.6"
+    },
+    {
+      "name": "wheel",
+      "version": "0.37.1"
+    },
+    {
+      "name": "xyzservices",
+      "version": "2026.3.0"
+    },
+    {
+      "name": "zipp",
+      "version": "1.0.0"
+    }
+  ],
+  "definition_only_clear_rpc_skipped": true,
+  "forest_resolved": true,
+  "compile_message": "TDL script successfully compiled, 102 nodes were defined.",
+  "effective_options": {
+    "ms_sel.msname": "/tmp/meq-native-runs/final.ms",
+    "ms_sel.ms_ifr_subset_str": "all",
+    "ms_sel.ms_corr_sel": "2x2",
+    "run_purr": "0",
+    "sim_mode": "sim only",
+    "read_ms_model": "0",
+    "tensormeqmaker.psv_class": "PSVTensor",
+    "me.use_jones_inspectors": "0",
+    "me.use_skyjones_visualizers": "0",
+    "me.use_smearing": "0",
+    "uvw_source": "from MS",
+    "uvw_refant": "default",
+    "me.sky.tiggerskymodel": "1",
+    "tiggerlsm.filename": "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/sky.txt",
+    "tiggerlsm.lsm_subset": "all",
+    "tiggerlsm.null_subset": "None",
+    "tiggerlsm.solvable_sources": "0",
+    "me.sky.siamese_oms_gridded_sky": "0",
+    "me.sky.siamese_agw_azel_sky": "0",
+    "me.sky.siamese_oms_transient_sky": "0",
+    "me.sky.siamese_oms_fitsimage_sky": "0",
+    "me.ncorr_enable": "0",
+    "me.z_enable": "0",
+    "me.l_enable": "0",
+    "me.e_enable": "1",
+    "me.e_module": "Siamese_OMS_pybeams_fits",
+    "pybeams_fits.filename_pattern": "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/meqtrees-hetero.json",
+    "pybeams_fits.beam_type": "2x2",
+    "pybeams_fits.missing_is_null": "0",
+    "pybeams_fits.spline_order": "3",
+    "pybeams_fits.normalize_gains": "1",
+    "pybeams_fits.ampl_interpolation": "0",
+    "pybeams_fits.l_axis": "px",
+    "pybeams_fits.m_axis": "py",
+    "pybeams_fits.l_beam_offset": "0.0",
+    "pybeams_fits.m_beam_offset": "0.0",
+    "pybeams_fits.sky_rotation": "1",
+    "pybeams_fits.verbose_level": "0",
+    "me.epe_enable": "0",
+    "me.e_advanced": "0",
+    "me.p_enable": "1",
+    "feed_angle.read_ms": "0",
+    "feed_angle.enable_pa": "0",
+    "feed_angle.feed_angle": "0",
+    "me.p_advanced": "0",
+    "me.d_enable": "0",
+    "me.g_enable": "0",
+    "me.ip_enable": "0",
+    "noise_stddev": "None",
+    "noise_from_sefd": "0",
+    "random_seed": "time",
+    "ms_sel.output_column": "CORRECTED_DATA",
+    "ms_sel.tile_size": "8",
+    "ms_sel.select_channels": "0",
+    "ms_sel.ms_taql_str": "None"
+  },
+  "requested_options": {
+    "me.sky.tiggerskymodel": "1",
+    "me.e_enable": "1",
+    "me.e_module": "Siamese_OMS_pybeams_fits",
+    "me.e_advanced": "0",
+    "me.e_all_stations": "0",
+    "me.epe_enable": "0",
+    "me.l_enable": "0",
+    "me.p_enable": "1",
+    "me.d_enable": "0",
+    "me.g_enable": "0",
+    "me.ip_enable": "0",
+    "me.ncorr_enable": "0",
+    "me.z_enable": "0",
+    "me.use_smearing": "0",
+    "me.fix_time_smearing": "0",
+    "me.fix_freq_smearing": "0",
+    "me.use_jones_inspectors": "0",
+    "me.use_skyjones_visualizers": "0",
+    "feed_angle.enable_pa": "0",
+    "feed_angle.read_ms": "0",
+    "feed_angle.feed_angle": "0",
+    "pybeams_fits.beam_type": "2x2",
+    "pybeams_fits.missing_is_null": "0",
+    "pybeams_fits.normalize_gains": "1",
+    "pybeams_fits.sky_rotation": "1",
+    "pybeams_fits.spline_order": "3",
+    "pybeams_fits.ampl_interpolation": "0",
+    "pybeams_fits.l_axis": "px",
+    "pybeams_fits.m_axis": "py",
+    "pybeams_fits.l_beam_offset": "0",
+    "pybeams_fits.m_beam_offset": "0",
+    "pybeams_fits.verbose_level": "0",
+    "ms_sel.ddid_index": "0",
+    "ms_sel.field_index": "0",
+    "ms_sel.select_channels": "0",
+    "ms_sel.ms_channel_start": "0",
+    "ms_sel.ms_channel_end": "0",
+    "ms_sel.ms_channel_step": "1",
+    "ms_sel.ms_corr_sel": "2x2",
+    "ms_sel.ms_polarization": "XX XY YX YY",
+    "ms_sel.ms_ifr_subset_str": "all",
+    "ms_sel.output_column": "CORRECTED_DATA",
+    "ms_sel.tile_size": "8",
+    "noise_from_sefd": "0",
+    "noise_stddev": "None",
+    "read_ms_model": "0",
+    "run_purr": "0",
+    "sim_mode": "sim only",
+    "tensormeqmaker.psv_class": "PSVTensor",
+    "uvw_source": "from MS",
+    "ms_sel.msname": "/tmp/meq-native-runs/final.ms",
+    "tiggerlsm.filename": "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/sky.txt",
+    "pybeams_fits.filename_pattern": "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/meqtrees-hetero.json"
+  },
+  "registered_options": {
+    "ms_sel.msname": {
+      "value": "/tmp/meq-native-runs/final.ms",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.ms_ifr_subset_str": {
+      "value": "all",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.ms_polarization": {
+      "value": "XX XY YX YY",
+      "visible": false,
+      "enabled": true
+    },
+    "ms_sel.ms_corr_sel": {
+      "value": "2x2",
+      "visible": true,
+      "enabled": true
+    },
+    "run_purr": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.input_column": {
+      "value": "DATA",
+      "visible": false,
+      "enabled": true
+    },
+    "ms_sel.model_column": {
+      "value": "DATA",
+      "visible": false,
+      "enabled": true
+    },
+    "ms_sel.output_column": {
+      "value": "CORRECTED_DATA",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.tile_size": {
+      "value": "8",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.ddid_index": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "ms_sel.field_index": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "ms_sel.select_channels": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.ms_channel_start": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.ms_channel_end": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.ms_channel_step": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "ms_sel.ms_taql_str": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "uvw_source": {
+      "value": "from MS",
+      "visible": true,
+      "enabled": true
+    },
+    "uvw_refant": {
+      "value": "default",
+      "visible": true,
+      "enabled": true
+    },
+    "sim_mode": {
+      "value": "sim only",
+      "visible": true,
+      "enabled": true
+    },
+    "read_ms_model": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tensormeqmaker.psv_class": {
+      "value": "PSVTensor",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.model_func": {
+      "value": "cross_model",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.grid_size": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.grid_step": {
+      "value": "0.1",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_flux": {
+      "value": "1e-06",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.center_source_flux": {
+      "value": "default",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_type": {
+      "value": "point",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.gauss_smaj": {
+      "value": "10",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.gauss_smin": {
+      "value": "10",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.gauss_pa": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.gridded_sky.gauss_smaj": {
+      "value": "10",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.gridded_sky.gauss_smin": {
+      "value": "10",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.gridded_sky.gauss_pa": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_pol": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_qi": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_ui": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_vi": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.grid_l0": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.grid_m0": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_spi": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_spi_2": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "gridded_sky.source_freq0": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.source_flux": {
+      "value": "1e-06",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.source_type": {
+      "value": "point",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.gauss_smaj": {
+      "value": "10",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.gauss_smin": {
+      "value": "10",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.gauss_pa": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.azel_sky.gauss_smaj": {
+      "value": "10",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.azel_sky.gauss_smin": {
+      "value": "10",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.azel_sky.gauss_pa": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.source_pol": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.source_qi": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.source_ui": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.source_vi": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.az_pos": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.el_pos": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.source_spi": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "azel_sky.source_freq0": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "transient_sky.model_func": {
+      "value": "cross_model",
+      "visible": true,
+      "enabled": true
+    },
+    "transient_sky.tburst": {
+      "value": "3600",
+      "visible": true,
+      "enabled": true
+    },
+    "transient_sky.duration": {
+      "value": "3600",
+      "visible": true,
+      "enabled": true
+    },
+    "transient_sky.grid_size": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "transient_sky.grid_step": {
+      "value": "0.1",
+      "visible": true,
+      "enabled": true
+    },
+    "transient_sky.source_flux": {
+      "value": "1e-06",
+      "visible": true,
+      "enabled": true
+    },
+    "fitsimage_sky.image_filename": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "fitsimage_sky.pad_factor": {
+      "value": "1.2",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.tec0": {
+      "value": "1.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.height": {
+      "value": "200.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.wavelength_1": {
+      "value": "250.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.wavelength_2": {
+      "value": "250.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.speed_1": {
+      "value": "300.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.speed_2": {
+      "value": "300.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.theta_1": {
+      "value": "15.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.theta_2": {
+      "value": "15.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.amp_1": {
+      "value": "0.1",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.amp_2": {
+      "value": "0.0",
+      "visible": true,
+      "enabled": true
+    },
+    "tid_mim.use_lonlat": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.beta": {
+      "value": "1.6666666666666667",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.n": {
+      "value": "1024",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.speedx": {
+      "value": "600.0",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.speedy": {
+      "value": "50.0",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.scale": {
+      "value": "1.0",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.amp_scale": {
+      "value": "0.01",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.tec0": {
+      "value": "1.0",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.height": {
+      "value": "200.0",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.seed_nr": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "kolmogorov_mim.use_lonlat": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "vlss_mim.night": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "vlss_mim.day": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "poly_mim.n_long": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "poly_mim.n_lat": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "poly_mim.height": {
+      "value": "300.0",
+      "visible": true,
+      "enabled": true
+    },
+    "poly_mim.use_lonlat": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "kl_mim.rank": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "kl_mim.height": {
+      "value": "200.0",
+      "visible": true,
+      "enabled": true
+    },
+    "iono_geometry.iono_rotate": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.iono_model": {
+      "value": "sine_tid_model",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.diff_mode": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tec0": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tid_x_ampl_0": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tid_x_ampl_1hr": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tid_x_size_km": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tid_x_speed_kmh": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tid_y_ampl_0": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tid_y_ampl_1hr": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tid_y_size_km": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.tid_y_speed_kmh": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.wedge_min": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.wedge_max": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere.wedge_time": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.iono_model": {
+      "value": "sine_tid_model",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.diff_mode": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tec0": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tid_x_ampl_0": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tid_x_ampl_1hr": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tid_x_size_km": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tid_x_speed_kmh": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tid_y_ampl_0": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tid_y_ampl_1hr": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tid_y_size_km": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.tid_y_speed_kmh": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.wedge_min": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.wedge_max": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_ionosphere2.wedge_time": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "model_type": {
+      "value": null,
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.wsrt_cos3_beam.bf": {
+      "value": "65.0",
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.wsrt_cos3_beam.ell": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.wsrt_cos3_beam.clip": {
+      "value": "0.1",
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.wsrt_cos3_beam.newstar_clip": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.wsrt_cos3_beam.dish_sizes": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.circular_aperture_beam.bf": {
+      "value": "1.0",
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.circular_aperture_beam.dish_sizes": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.clipped_sinc_beam.bf": {
+      "value": "1.0",
+      "visible": true,
+      "enabled": true
+    },
+    "analytic_beams.clipped_sinc_beam.dish_sizes": {
+      "value": "25",
+      "visible": true,
+      "enabled": true
+    },
+    "fits_beams0.filename_pattern": {
+      "value": "beam_%(xy)s_%(reim)s.fits",
+      "visible": true,
+      "enabled": true
+    },
+    "fits_beams0.missing_is_null": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "fits_beams0.norm_beams": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "fits_beams0.sky_rotation": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.filename_pattern": {
+      "value": "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/meqtrees-hetero.json",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.beam_type": {
+      "value": "2x2",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.missing_is_null": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.spline_order": {
+      "value": "3",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.normalize_gains": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.ampl_interpolation": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.l_axis": {
+      "value": "px",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.m_axis": {
+      "value": "py",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.l_beam_offset": {
+      "value": "0.0",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.m_beam_offset": {
+      "value": "0.0",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.sky_rotation": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "pybeams_fits.verbose_level": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.filename_pattern": {
+      "value": "beam_$(hv).pat",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.pattern_labels": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.freq_labels": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.beam_symmetry": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.normalization_factor": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.rotate_xy": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.spline_order": {
+      "value": "3",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.hier_interpol": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.interpol_coord": {
+      "value": "lm",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.l_beam_offset": {
+      "value": "0.0",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.m_beam_offset": {
+      "value": "0.0",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.sky_rotation": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.horizon_masking": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.randomize_rotation": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "emss_polar_beams.verbose_level": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.filename_pattern": {
+      "value": "beam_$(elem)_$(xy)_$(reim).fits",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.missing_is_null": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.spline_order": {
+      "value": "3",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.normalize_gains": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.ampl_interpolation": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.sky_rotation": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.num_elements": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.weight_filename_x": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.weight_filename_y": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.beam_number": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.read_offsets_file": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.offsets_file": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.invert_l": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.sim_element_errors": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.start_phased_up": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.min_ampl_var": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.max_ampl_var": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.min_phase_var": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.max_phase_var": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.min_period_var": {
+      "value": "2",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.max_period_var": {
+      "value": "24",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.do_normalize": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "paf_beams.do_correct": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "vla_beams.beam_model": {
+      "value": "VLA_beam_squint",
+      "visible": true,
+      "enabled": true
+    },
+    "vla_beams.vla_squint": {
+      "value": "237.56",
+      "visible": true,
+      "enabled": true
+    },
+    "vla_beams.vla_feed_angle": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "vla_beams.d_ant": {
+      "value": "24.5",
+      "visible": true,
+      "enabled": true
+    },
+    "vla_beams.vla_pa": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.array_composition": {
+      "value": "dipoles",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.station_id": {
+      "value": "1",
+      "visible": false,
+      "enabled": true
+    },
+    "dipole_model": {
+      "value": null,
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.lba_l": {
+      "value": "0.9758",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.lba_h": {
+      "value": "1.706",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.lba_alpha": {
+      "value": "45.00001",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.lba_phi0_x": {
+      "value": "45",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.lba_phi0_y": {
+      "value": "135",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.lba_beam_scale": {
+      "value": "88",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.hba_phi0_x": {
+      "value": "45",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.hba_phi0_y": {
+      "value": "135",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.hba_beam_scale": {
+      "value": "600",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.station_config_path": {
+      "value": "%s.coords",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.station_phi0": {
+      "value": "45",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.lofar_beams.station_config_path": {
+      "value": "%s.coords",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.lofar_beams.station_phi0": {
+      "value": "45",
+      "visible": true,
+      "enabled": true
+    },
+    "lofar_beams.beam_library_path": {
+      "value": "/tmp/meq-image/root/usr/local/lib/python3.10/dist-packages/Cattery/Siamese/SBY/lofar_beams_lib.so",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_pointing_errors.station_subset": {
+      "value": "all",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.error_model": {
+      "value": "NoError",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.offset": {
+      "value": "61055.833333333336",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.values_str": {
+      "value": "10",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.maxerr": {
+      "value": "10",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.min0": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.max0": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.max1": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.max2": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.max3": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.scale": {
+      "value": "0.16666666666666666",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.dump": {
+      "value": "None",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.min_period": {
+      "value": "1",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_l.max_period": {
+      "value": "2",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.error_model": {
+      "value": "NoError",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.offset": {
+      "value": "61055.833333333336",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.values_str": {
+      "value": "10",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.maxerr": {
+      "value": "10",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.min0": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.max0": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.max1": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.max2": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.max3": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.scale": {
+      "value": "0.16666666666666666",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.dump": {
+      "value": "None",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.min_period": {
+      "value": "1",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_pointing_errors.pe_m.max_period": {
+      "value": "2",
+      "visible": false,
+      "enabled": true
+    },
+    "feed_angle.read_ms": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "feed_angle.enable_pa": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "feed_angle.feed_angle": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.error_model": {
+      "value": "NoError",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.offset": {
+      "value": "61055.833333333336",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.values_str": {
+      "value": "0.5",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.minval": {
+      "value": "0.5",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.maxval": {
+      "value": "1.5",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.min0": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.max0": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.max1": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.max2": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.max3": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.scale": {
+      "value": "0.16666666666666666",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.dump": {
+      "value": "None",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.min_period": {
+      "value": "1",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-gain.max_period": {
+      "value": "2",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.error_model": {
+      "value": "NoError",
+      "visible": true,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.offset": {
+      "value": "61055.833333333336",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.values_str": {
+      "value": "60",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.maxerr": {
+      "value": "60",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.min0": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.max0": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.max1": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.max2": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.max3": {
+      "value": "0",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.scale": {
+      "value": "0.16666666666666666",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.dump": {
+      "value": "None",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.min_period": {
+      "value": "1",
+      "visible": false,
+      "enabled": true
+    },
+    "oms_gain_models.err-phase.max_period": {
+      "value": "2",
+      "visible": false,
+      "enabled": true
+    },
+    "rotation.rot_ip.feed_angle": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.use_jones_inspectors": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.use_skyjones_visualizers": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me._skyvis_frame": {
+      "value": "lm plane",
+      "visible": true,
+      "enabled": true
+    },
+    "me.use_smearing": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.fix_time_smearing": {
+      "value": "0.0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.fix_freq_smearing": {
+      "value": "0.0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.smearing_count": {
+      "value": "all",
+      "visible": true,
+      "enabled": true
+    },
+    "me.sky.tiggerskymodel": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.filename": {
+      "value": "/workspace/scratch/a2e4ee446bfb/fixture-runs/tiny-final/sky.txt",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.lsm_subset": {
+      "value": "all",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.null_subset": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solvable_sources": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.lsm_solvable_tag": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.lsm_solve_group_tag": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solve_i": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solve_q": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solve_u": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solve_v": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solve_spi": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solve_pos": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solve_rm": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "tiggerlsm.solve_shape": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.sky.siamese_oms_gridded_sky": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.sky.siamese_agw_azel_sky": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.sky.siamese_oms_transient_sky": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.sky.siamese_oms_fitsimage_sky": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ncorr_enable": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ncorr_advanced": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ncorr_all_stations": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ncorr_per_source": {
+      "value": "each source",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ncorr_subset.subset_enabled": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ncorr_subset.source_subset": {
+      "value": "all",
+      "visible": true,
+      "enabled": true
+    },
+    "me.z_enable": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.z_module": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "make_log": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "ref_station": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "selname": {
+      "value": null,
+      "visible": true,
+      "enabled": true
+    },
+    "me.z_advanced": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.z_all_stations": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.z_per_source": {
+      "value": "each source",
+      "visible": true,
+      "enabled": true
+    },
+    "me.z_subset.subset_enabled": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.z_subset.source_subset": {
+      "value": "all",
+      "visible": true,
+      "enabled": true
+    },
+    "me.l_enable": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.l_module": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "rot_l.enable_pa": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "me.l_advanced": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.l_all_stations": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.l_per_source": {
+      "value": "each source",
+      "visible": true,
+      "enabled": true
+    },
+    "me.l_subset.subset_enabled": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.l_subset.source_subset": {
+      "value": "all",
+      "visible": true,
+      "enabled": true
+    },
+    "me.e_enable": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "me.e_module": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "me.epe_enable": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.e_advanced": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.e_all_stations": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.e_per_source": {
+      "value": "each source",
+      "visible": true,
+      "enabled": true
+    },
+    "me.e_subset.subset_enabled": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.e_subset.source_subset": {
+      "value": "all",
+      "visible": true,
+      "enabled": true
+    },
+    "me.p_enable": {
+      "value": "1",
+      "visible": true,
+      "enabled": true
+    },
+    "me.p_advanced": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.p_all_stations": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.d_enable": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "leakage_d.d": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.d_advanced": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.d_all_stations": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.g_enable": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.g_advanced": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.g_all_stations": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ip_enable": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "rot_ip.read_ms": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "rot_ip.enable_pa": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ip_advanced": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "me.ip_all_stations": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "noise_stddev": {
+      "value": "None",
+      "visible": true,
+      "enabled": true
+    },
+    "noise_from_sefd": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "noise_sefd": {
+      "value": "0",
+      "visible": true,
+      "enabled": true
+    },
+    "noise_sefd_bw_khz": {
+      "value": "4",
+      "visible": true,
+      "enabled": true
+    },
+    "noise_sefd_integration": {
+      "value": "60",
+      "visible": true,
+      "enabled": true
+    },
+    "random_seed": {
+      "value": "time",
+      "visible": true,
+      "enabled": true
+    }
+  },
+  "unregistered_options": [],
+  "not_serialized_options": [
+    "me.e_all_stations",
+    "me.fix_freq_smearing",
+    "me.fix_time_smearing",
+    "ms_sel.ddid_index",
+    "ms_sel.field_index",
+    "ms_sel.ms_channel_end",
+    "ms_sel.ms_channel_start",
+    "ms_sel.ms_channel_step",
+    "ms_sel.ms_polarization"
+  ],
+  "text_differences": {
+    "pybeams_fits.l_beam_offset": {
+      "requested": "0",
+      "effective": "0.0"
+    },
+    "pybeams_fits.m_beam_offset": {
+      "requested": "0",
+      "effective": "0.0"
+    }
+  }
+}
